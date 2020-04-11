@@ -1,0 +1,114 @@
+/* dstr God knows how this works
+.myAll {
+    font-size: 30px;
+}
+*/
+/**
+ * The type blocks
+ */
+.process {
+    -fx-fill: #fabd2f;
+    -fx-font-weight: bold;
+  /*  -fx-font-size: 30px;   dstr WORKS  */
+}
+
+/**
+ * functions (e.g. abs)
+ */
+.function {
+    -fx-fill: #83a598;
+}
+
+/**
+ * special STOP keyword
+ */
+.terminalStop {
+    -fx-fill: #d3869b;
+}
+
+/**
+ * special ERROR keyword
+ */
+.terminalError {
+    -fx-fill: #d3869b;
+}
+
+/**
+ * if/else/when keywords
+ */
+.keyword {
+    -fx-fill: #d3869b;
+    -fx-font-weight: bold;
+}
+
+/**
+ * mathematical style symbols
+ */
+.symbol {
+    -fx-fill: #d5c4a1;
+}
+
+/**
+ * bisim, trace operations
+ */
+.operator {
+    -fx-fill: #d5c4a1;
+}
+
+/**
+ * mathematical operators
+ */
+.operation {
+    -fx-fill: #d5c4a1;
+}
+
+/**
+ * actions e.g. a ->
+ */
+.actionLabel {
+    -fx-fill: #fb4934;
+}
+
+/**
+ * Process identifier
+ */
+.identifier {
+    -fx-fill: #e8d52c;
+}
+
+.number {
+    -fx-fill: #fe8019;
+}
+
+.paren {
+    -fx-fill: #d5c4a1;
+    -fx-font-weight: bold;
+}
+.bracket {
+    -fx-fill: #d5c4a1;
+    -fx-font-weight: bold;
+}
+.brace {
+    -fx-fill: #d5c4a1;
+    -fx-font-weight: bold;
+}
+
+.comment {
+	-fx-fill: #b2ada9;
+}
+
+.caret {
+    -fx-stroke: #d5c4a1;
+}
+
+/**
+*   If there is a segment of code the compiler disagrees with.
+*/
+.issue {
+    -fx-underline: true;
+    -fx-stroke: red;
+}
+
+.string {
+    -fx-fill: #b8bb26;
+}

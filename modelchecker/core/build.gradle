@@ -1,0 +1,8 @@
+dependencies {
+    compile project(':clientapplication')
+    compile project(':interpreter')
+    compile project(':operations')
+    compile project(':parsing')
+    compile project(':processmodels')
+    compile 'com.google.code.gson:gson:2.8.0'
+}
